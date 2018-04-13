@@ -13,16 +13,8 @@ public class GT4500 implements SpaceShip {
   public GT4500() {
     this.primaryTorpedoStore = new TorpedoStore(10);
     this.secondaryTorpedoStore = new TorpedoStore(10);
-  }/ try to fire both of the torpedo stores
-87
-        //TODO implement feature
+  }
 
-  public boolean fireLaser(FiringMode firingMode) {
-  public boolean fireLaser(FiringMode firingMode) {
-    // TODO not implemented yet
-    return false;
-    // TODO not implemented yet
-    return false;
   public boolean fireLaser(FiringMode firingMode) {
     // TODO not implemented yet
     return false;
@@ -85,7 +77,7 @@ public class GT4500 implements SpaceShip {
         break;
 
       case ALL:
-      firingSuccess = true;
+        firingSuccess = true;
 
         break;
     }
