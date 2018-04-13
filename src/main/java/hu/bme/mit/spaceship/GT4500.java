@@ -5,7 +5,11 @@ package hu.bme.mit.spaceship;
 */
 public class GT4500 implements SpaceShip {
 
+
+  private String Abranch;
+
   private String Bbranch;
+
   private TorpedoStore primaryTorpedoStore;
   private TorpedoStore secondaryTorpedoStore;
 
