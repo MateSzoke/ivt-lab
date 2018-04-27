@@ -5,11 +5,6 @@ package hu.bme.mit.spaceship;
 */
 public class GT4500 implements SpaceShip {
 
-
-  private String Abranch;
-
-  private String Bbranch;
-
   private TorpedoStore primaryTorpedoStore;
   private TorpedoStore secondaryTorpedoStore;
 
@@ -21,8 +16,10 @@ public class GT4500 implements SpaceShip {
   }
 
   public boolean fireLaser(FiringMode firingMode) {
-    // TODO not implemented yet
-    return false;
+   	if(1 < 2)
+   	 return false;
+	else
+	return true; 		//test 
   }
 
   /**
