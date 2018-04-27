@@ -16,10 +16,11 @@ public class GT4500 implements SpaceShip {
   }
 
   public boolean fireLaser(FiringMode firingMode) {
-   	if(1 < 2)
-   	 return false;
+	if(firingMode.equals(SINGLE)
+		return false;
 	else
-	return true; 		//test 
+	return true;
+	 
   }
 
   /**
